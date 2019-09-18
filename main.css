@@ -1,0 +1,87 @@
+body {
+    background-color: white ;
+}
+header {
+    text-align: center ;
+    opacity: 0.5 ;
+    font-size: 30px ;
+}
+#conteiner {
+    width: 1000px ;
+    border: 2px solid #ccc ;
+    margin: 50px auto ;
+    border-radius: 20px ;
+}
+#inputToDo {
+    display: flex ;
+    height: 80px ;
+}
+#Add-input {
+    display: flex ;
+    flex: auto ;
+    margin: 10px ;
+    border: 2px solid #ccc ;
+    border-radius: 10px ;
+    opacity: 0.7 ;
+    cursor: pointer ;
+    font-size: 25px ;
+    padding-left: 15px ;
+}
+#Add-button {
+    display: flex ;
+    flex: none ;
+    width: 150px ;
+    justify-content: center ;
+    font-size: 20px ;
+    margin: 10px ;
+    border: 2px solid #ccc ;
+    border-radius: 10px ;
+    opacity: 0.7 ;
+    cursor: pointer ;
+}
+#Add-button:hover {
+    opacity: 1 ;
+}
+#Add-input:hover {
+    opacity: 1 ;
+}
+.Added-div {
+    display: flex ;
+    height: 80px ;
+}
+.div-for-p-center {
+    display: flex ;
+    flex: auto ;
+    margin: 10px ;
+    border: 2px solid #ccc ;
+    border-radius: 10px ;
+    opacity: 0.7 ;
+    cursor: pointer ;
+    font-size: 25px ;
+}
+.Delete-button {
+    display: flex ;
+    flex: none ;
+    width: 150px ;
+    justify-content: center ;
+    font-size: 20px ;
+    margin: 10px ;
+    border: 2px solid #ccc ;
+    border-radius: 10px ;
+    opacity: 0.7 ;
+    cursor: pointer ;
+}
+.Delete-button:hover {
+    opacity: 1 ;
+}
+.Added-text {
+    display: flex ;
+    align-self: center ;
+}
+.div-for-p-center {
+    padding-left: 15px ;
+}
+.click-paragraf {
+    background-color: red ;
+    text-decoration-line: line-through ;
+}
